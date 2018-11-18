@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"30px",
+    "navigationBarBackgroundColor": "#e6e6e6",
+    "navigationBarTitleText": "小本音乐",
+    "navigationBarTextStyle":"black"
+  }
+}

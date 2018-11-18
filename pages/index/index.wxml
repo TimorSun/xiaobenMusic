@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">{{title}}</view>
+  <view class="music-box" >
+    <view class="music-item"wx:for="{{list}}" wx:key="*this">
+    <text>{{item.name}}</text>
+    <text>{{item.singer}}</text>
+    </view>
+    
+  </view>
+  
+</view>
+<view class="bottom-box">
+  <button class="{{buttonSwitch}}" bindtap="buttonClik"></button>
+  <view class="music-info">
+    <view class="play-name">{{playName}}</view>
+    <view class="play-singer">{{playSinger}}</view>
+  </view>
+  <navigator url="/pages/logs/logs?name={{playName}}">
+    <image class="play-image" src="{{playPic}}"></image>
+  </navigator>
+  
+</view>

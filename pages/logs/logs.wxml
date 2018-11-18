@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view>
+<view class="container">
+  <view class="music-title">{{musicName}}</view>
+  <view class="music-box">
+    <view class="lrc">
+    </view>
+  </view>
+  <button class="button-play" bindtap="musicPlay" type="primary">{{buttonText}}</button>
+</view>
+</view>
+
